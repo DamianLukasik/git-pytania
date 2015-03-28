@@ -347,10 +347,14 @@ name="pyt11__button" id="pyt11__button">▶</span><div style="display:inline;" c
 11. Jak zmienić komentarz do dodany do ostatniego zatwierdzenia?
 
 </div>
-<div class="stylepoint_body" name="pyt11__body" id="pyt11__body" style="display: inline; "><fieldset class="answer">
+<div class="stylepoint_body" name="pyt11__body" id="pyt11__body" style="display: none; "><fieldset class="answer">
 
 <p>
-<pre>???</pre>
+Aby zmienić treść komentarza, który został dodany do ostatniego zatwierdzenia trzeba użyć polecenia:
+</p>
+<pre>git commit --amend</pre>
+<p>
+Które otworzy edytor teksotwy (np: gedit), zawierający nasz ostatni komentarz gotowy do wprowadzenia zmian, po czym należy wyczyścić całą zawartość pliku wraz z komentazrami (#) oraz ostatnią treść. Wprowadzić nową treść komentarza, zapisać zmiany i zamkąć edytor teksotwy. Nowy tekst komentarza nadpisze poprzedni, stając się tym samym nowym, ostatnim commitem.
 </p>
 
 </fieldset></div></p>
